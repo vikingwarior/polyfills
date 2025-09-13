@@ -211,6 +211,34 @@ class MyPromise {
   }
 }
 
+class MyPromiseTemplate {
+  constructor() {}
+
+  static resolve() {}
+
+  static reject() {}
+
+  static all() {}
+
+  static allSettled() {}
+
+  static race() {}
+
+  static any() {}
+
+  #executeCallbackChain() {}
+
+  #onSuccess() {}
+
+  #onFail() {}
+
+  then() {}
+
+  catch() {}
+
+  finally() {}
+}
+
 class UncaughtPromiseError extends Error {
   constructor(error) {
     super(error);
